@@ -5,11 +5,11 @@ CREATE TABLE supplier (
     CITY TEXT
 );
 
-INSERT INTO supplier (SNO, SNAME, AMOUNT STOLEN, CITY) VALUES
-('S1', 'Smith', 20, 'Lagos' ),
-('S2', 'Jones', 10, 'Lagos'),
-('S3', 'Blake', 30, 'Lagos'),
-('S4', 'Clarke', 20, 'Lagos'),
-('S5', 'Adams', 30, 'Lagos');
+INSERT INTO supplier (SNO, SNAME, STATUS, CITY) VALUES
+('S1', 'Smith', N500k, 'London' ),
+('S2', 'Jones', N10K, 'Paris'),
+('S3', 'Blake', N300K, 'Paris'),
+('S4', 'Clarke', N20K, 'London'),
+('S5', 'Adams', N30K, 'Athens');
 
 SELECT * FROM supplier;
